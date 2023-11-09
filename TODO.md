@@ -10,8 +10,22 @@
 - [ ] Install `Continius Deployment`
 
 # Frontend
-## Pages
-- [ ] `Home` page
+## Set up Pages
+- [X] `Main` page
+- [X] `Lore` page
+- [X] `Core Rules` page
+- [X] `Turned Based Conflict` page
+- [X] `Personality Perks` page
+- [X] `Wound Perks` page
+- [X] `Know-Hows` page
+- [X] `Techniques` page
+- [X] `Conditions` page
+- [X] `Character Creation` page
+- [ ] ~~`Character Sheet` page~~
+- [ ] ~~`"Equipment"` page~~
+
+## Populate pages
+- [ ] `Main` page
 - [ ] `Lore` page
 - [ ] `Core Rules` page
 - [ ] `Turned Based Conflict` page
