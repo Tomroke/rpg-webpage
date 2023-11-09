@@ -1,25 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route }
+  from "react-router-dom";
+import { Main, Lore, CoreRules, TBC, PersonalityPerks, WoundPerks, KnowHows, Techniques, Conditions, CharacterCreation } from "./pages";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Router>
+        <Routes>
+            <Route path="/" element={<Main/>}/>
+            <Route path="/lore" element={<Lore />}/>
+            <Route path="/coreRules" element={<CoreRules />}/>
+            <Route path="/TBC" element={<TBC />}/>
+            <Route path="/personalityPerks" element={<PersonalityPerks />}/>
+            <Route path="/woundPerks" element={<WoundPerks/>}/>
+            <Route path="/knowHows" element={<KnowHows/>}/>
+            <Route path="/techniques" element={<Techniques/>}/>
+            <Route path="/conditions" element={<Conditions/>}/>
+            <Route path="/characterCreation" element={<CharacterCreation/>}/>
+        </Routes>
+      </Router>
   );
 }
 
