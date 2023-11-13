@@ -1,5 +1,8 @@
 # Code Quality & etc
-- [ ] Install & set upp `ESLint`
+- [X] Install `ESLint`
+- [X] Set upp `ESLint`
+- [ ] Install `Husky`
+- [ ] Set upp `Husky`
 - [ ] Install `Axios`
 - [ ] Install `Jest`
 - [ ] Install `Selenium`

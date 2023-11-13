@@ -9,4 +9,16 @@ import Techniques from "./Techniques";
 import Conditions from "./Conditions";
 import CharacterCreation from "./CharacterCreation";
 
-export { Main, Lore, CoreRules, TBC, PersonalityPerks, WoundPerks, KnowHows, Techniques, Conditions, CharacterCreation };
+export
+{
+    Main,
+    Lore,
+    CoreRules,
+    TBC,
+    PersonalityPerks,
+    WoundPerks,
+    KnowHows,
+    Techniques,
+    Conditions,
+    CharacterCreation
+};

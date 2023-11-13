@@ -1,7 +1,7 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-function KnowHows() {
+function KnowHows () {
     return (
         <div className="App">
             <header className="App-header">
