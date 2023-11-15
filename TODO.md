@@ -9,7 +9,7 @@
 - [ ] Set upp `Continius Deployment`
 
 # Testing
-- [ ] Install `Jest`
+- [X] Install `Jest`
 - [ ] Set Up `Jest`
 - [ ] Install `Cypress`
 - [ ] Set Up `Cypress`
@@ -61,6 +61,59 @@
 - [ ] `Header Image` component
 - [ ] `Footer` component
 - [ ] `Images` component
+
+## Testing
+### Unit Testing
+- [ ] `Button` component
+- [ ] `Dropdown List` component
+- [ ] `Link` component
+- [ ] `Input Field` component
+- [ ] `Search` component
+- [ ] `Hover boxes` component
+- [ ] `Scroll` component
+- [ ] `Main` page
+- [ ] `Lore` page
+- [ ] `Core Rules` page
+- [ ] `Turned Based Conflict` page
+- [ ] `Personality Perks` page
+- [ ] `Wound Perks` page
+- [ ] `Know-Hows` page
+- [ ] `Techniques` page
+- [ ] `Conditions` page
+- [ ] `Character Creation` page
+- [ ] `Character Sheet` page
+- [ ] `"Equipment"` page
+- [ ] `Header` component
+- [ ] `Header Image` component
+- [ ] `Footer` component
+- [ ] `Images` component
+
+### Integration Testing
+- [ ] `Button` component
+- [ ] `Dropdown List` component
+- [ ] `Link` component
+- [ ] `Input Field` component
+- [ ] `Search` component
+- [ ] `Hover boxes` component
+- [ ] `Scroll` component
+- [ ] `Main` page
+- [ ] `Lore` page
+- [ ] `Core Rules` page
+- [ ] `Turned Based Conflict` page
+- [ ] `Personality Perks` page
+- [ ] `Wound Perks` page
+- [ ] `Know-Hows` page
+- [ ] `Techniques` page
+- [ ] `Conditions` page
+- [ ] `Character Creation` page
+- [ ] `Character Sheet` page
+- [ ] `"Equipment"` page
+- [ ] `Header` component
+- [ ] `Header Image` component
+- [ ] `Footer` component
+- [ ] `Images` component
+
+### End-to-End
 
 ## Design
 - [ ] `Button` design
