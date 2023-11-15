@@ -1,7 +1,7 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-function Lore() {
+function Lore () {
     return (
         <div className="App">
             <header className="App-header">
