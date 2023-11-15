@@ -1,16 +1,21 @@
-# Code Quality & etc
+# Code Quality
 - [X] Install `ESLint`
 - [X] Set upp `ESLint`
-- [ ] Install `Husky`
-- [ ] Set upp `Husky`
-- [ ] Install `Axios`
+
+# Automation
+- [X] Install `Husky`
+- [X] Set upp `Husky`
+- [ ] Set upp `Continius Integration`
+- [ ] Set upp `Continius Deployment`
+
+# Testing
 - [ ] Install `Jest`
-- [ ] Install `Selenium`
+- [ ] Set Up `Jest`
 - [ ] Install `Cypress`
+- [ ] Set Up `Cypress`
 - [ ] Install `TestCafe`
-- [ ] Install `Other testing tools`
-- [ ] Install `Continius Integration`
-- [ ] Install `Continius Deployment`
+- [ ] Set Up `TestCafe`
+- [ ] Install & Set Up `Other testing tools`
 
 # Frontend
 ## Set up Pages
@@ -72,3 +77,4 @@
 
 # Backend
 ## ???
+- [ ] Install `Axios`
