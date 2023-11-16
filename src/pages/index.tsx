@@ -2,7 +2,7 @@ import Main from "./Main";
 import Lore from "./Lore";
 import CoreRules from "./CoreRules";
 import TBC from "./TBC";
-import PersonalityPerks from "./personalityPerks";
+import PersonalityPerks from "./PersonalityPerks";
 import WoundPerks from "./WoundPerks";
 import KnowHows from "./KnowHows";
 import Techniques from "./Techniques";

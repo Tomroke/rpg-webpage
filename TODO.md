@@ -17,6 +17,9 @@
 - [ ] Set Up `TestCafe`
 - [ ] Install & Set Up `Other testing tools`
 
+# Maybes
+- [ ] Install `Storybook`
+
 # Frontend
 ## Set up Pages
 - [X] `Main` page
