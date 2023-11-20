@@ -51,7 +51,10 @@
 
 ## Components
 ### Intractable
-- [ ] `Button` component
+- [X] `Button` component
+- [ ] `Button: Primary` component
+- [ ] `Button: Ghost` component
+- [ ] `Button: Rasied` component
 - [ ] `Dropdown List` component
 - [ ] `Link` component
 - [ ] `Input Field` component
