@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { Button } from "../components/button";
 
 const lore: string = "lore";
 const coreRules: string = "coreRules";
@@ -22,15 +23,15 @@ function Main () {
         <div className="App">
             <header className="App-header">
                 <p>Main components</p>
-                <button onClick={() => goTo(lore)}>go to Lore </button>
-                <button onClick={() => goTo(coreRules)}>go to Core Rules </button>
-                <button onClick={() => goTo(TBC)}>go to Turn Based Conflict </button>
-                <button onClick={() => goTo(personalityPerks)}>go to Personality Perks</button>
-                <button onClick={() => goTo(woundPerks)}>go to Wound Perks</button>
-                <button onClick={() => goTo(knowHows)}>go to KnowHows</button>
-                <button onClick={() => goTo(techniques)}>go to Techniques</button>
-                <button onClick={() => goTo(conditions)}>go to Conditions</button>
-                <button onClick={() => goTo(characterCreation)}>go to Character Creation</button>
+                <Button onClick={() => goTo(lore)}>go to Lore </Button>
+                <Button onClick={() => goTo(coreRules)}>go to Core Rules </Button>
+                <Button onClick={() => goTo(TBC)}>go to Turn Based Conflict </Button>
+                <Button onClick={() => goTo(personalityPerks)}>go to Personality Perks</Button>
+                <Button onClick={() => goTo(woundPerks)}>go to Wound Perks</Button>
+                <Button onClick={() => goTo(knowHows)}>go to KnowHows</Button>
+                <Button onClick={() => goTo(techniques)}>go to Techniques</Button>
+                <Button onClick={() => goTo(conditions)}>go to Conditions</Button>
+                <Button onClick={() => goTo(characterCreation)}>go to Character Creation</Button>
             </header>
         </div>
     );
