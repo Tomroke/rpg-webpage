@@ -61,10 +61,10 @@
 - [ ] `Search` component
 - [ ] `Hover boxes` component
 - [ ] `Scroll` component
-
-### Non-Intractable
-- [ ] `Header` component
-- [ ] `Header Image` component
+- [X] `Header` component
+- [X] `Header Image` component (considered done for now, as it might need a proper backend to work as I want it.)
+- [X] `Header Buttons` component
+- [ ] `Header Hamburger menu` component
 - [ ] `Footer` component
 - [ ] `Images` component
 
