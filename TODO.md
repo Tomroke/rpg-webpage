@@ -64,7 +64,8 @@
 - [X] `Header` component
 - [X] `Header Image` component (considered done for now, as it might need a proper backend to work as I want it.)
 - [X] `Header Buttons` component
-- [ ] `Header Hamburger menu` component
+- [ ] `Header Navbar` component
+- [ ] `Header Hamburger Menu` component (When the dropdown menus are too many)
 - [ ] `Footer` component
 - [ ] `Images` component
 
