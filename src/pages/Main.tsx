@@ -1,37 +1,14 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
-import { Button } from "../components/button";
 import { Header } from "../components/header";
+import Dropdown from "../components/dropDownMenu/DropDownMenu";
+import nav from "../constants/nav.json";
 
 const headerImg = "/src/assets/test.png";
-
-const buttonsTexts: string[] =
-    [
-        "lore",
-        "coreRules",
-        "TBC",
-        "personalityPerks",
-        "woundPerks",
-        "knowHows",
-        "techniques",
-        "conditions",
-        "characterCreation"
-    ];
 
 const headerStyle: React.CSSProperties = { backgroundColor: "#ec82ef", color: "white", padding: "10px" };
 
 function Main () {
-    const navigate = useNavigate();
-
-    const goTo = (page: string) => {
-        navigate(`/${page}`);
-    };
-
-    const popButtons = () => {
-        return buttonsTexts.map((text: string, index: number) => {
-            return <Button key={index} onClick={() => goTo(text)}>{text}</Button>;
-        });
-    };
+    const rulesMap = new Map(Object.entries(nav.rules));
 
     return (
         <div className="App">
@@ -40,7 +17,7 @@ function Main () {
                 subtitle="Main components"
                 img={headerImg}
                 styles={headerStyle}
-                elements={popButtons()}>
+                elements={[<Dropdown key={"rulesButtons"} initMenuText={"Rules"} textsNavDisplay={ rulesMap } />]}>
             </Header>
         </div>
     );
