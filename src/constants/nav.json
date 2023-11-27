@@ -1,0 +1,14 @@
+{
+  "rules":
+  {
+    "Lore": "lore",
+    "Core Rules": "coreRules",
+    "Turn Based Conflict": "TBC",
+    "Personality Perks": "personalityPerks",
+    "Wound Perks": "woundPerks",
+    "Know-Hows": "knowHows",
+    "Techniques": "techniques",
+    "Conditions": "conditions",
+    "Character Creation": "characterCreation"
+  }
+}

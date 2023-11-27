@@ -11,6 +11,7 @@
     "babel:build": "babel src -d lib"
   },
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@jest/types": "^29.6.3",
     "@types/node": "^18.17.0",
     "@types/react": "^18.2.37",
