@@ -1,7 +1,7 @@
 import React from "react";
 import { Header } from "../components/header";
 import Dropdown from "../components/dropDownMenu/DropDownMenu";
-import nav from "../constants/nav.json";
+import nav from "../locales/nav.json";
 
 const headerImg = "/src/assets/test.png";
 

@@ -1,0 +1,16 @@
+{
+  "diceLevelsPool": {
+    "title": "Dice Levels and Dice Pool",
+    "paragraphs": [
+      "The dice system in G.A.S.A uses range of dice, each assigned to a specific level that represents an Adventurer's power, skill, and experience. Dice Levels range from level 1 to level 6, with each level corresponding to a different type of dice. Specifically, level 1 corresponds to a d4, level 2 to a d6, level 3 to a d8, level 4 to a d10, level 5 to a d12, and level 6 to a d20. The higher the Dice Level, the more potent and capable the Adventurer is. Dice Level will be abbreviated as DL in the coming chapters.",
+      "In certain situations, an Adventurer may roll more than one die, which is often influenced by Perks or Techniques. Regardless of the source of these additional dice, each adds an extra die to the dice pool. The total of the dice rolled is added together once rolled."
+    ]
+  },
+  "ChallengeRatings": {
+    "title": "Challenge Ratings",
+    "paragraphs": [
+      "The Challenge Rating, or CR, serves as a measure of the difficulty or toughness of a particular task or objective, whether it's striking a foe, climbing a mountain, or even making a super tasty and energy-rich breakfast. When an Adventurer attempts to overcome a CR, it is referred to as making a Check. There are three types of Checks: Static, Levelled, and Opposition. These are abbreviated as follows: Static Check is SC, Levelled Check is LC and OC is OC",
+      "CRs are written as follows, X/Y. X is the SC, while the Y is the LC. As OC are between two or more Adventurers it will simply state that it’s a OC roll."
+    ]
+  }
+}
