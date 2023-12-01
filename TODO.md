@@ -36,7 +36,7 @@
 - [ ] ~~`"Equipment"` page~~
 
 ## Populate pages
-- [ ] `Main` page
+- [X] `Main` page
 - [ ] `Lore` page
 - [ ] `Core Rules` page
 - [ ] `Turned Based Conflict` page
@@ -61,6 +61,8 @@
 - [ ] `Search` component
 - [ ] `Hover boxes` component
 - [ ] `Scroll` component
+- [X] `Paragraph` component
+- [ ] `Images` component
 - [X] `Header` component
 - [X] `Header Image` component (considered done for now, as it might need a proper backend to work as I want it.)
 - [X] `Header Buttons` component

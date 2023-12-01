@@ -19,9 +19,16 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
+    "sourceMap": true,
+    "outDir": "./src/out",
   },
   "include": [
     "src",
-    "src/assets"
+    "src/assets",
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
   ]
 }
