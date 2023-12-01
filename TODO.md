@@ -61,14 +61,15 @@
 - [ ] `Search` component
 - [ ] `Hover boxes` component
 - [ ] `Scroll` component
-- [X] `Paragraph` component
-- [ ] `Images` component
 - [X] `Header` component
 - [X] `Header Image` component (considered done for now, as it might need a proper backend to work as I want it.)
 - [X] `Header Buttons` component
 - [X] `Header Navbar` component
 - [ ] `Header Hamburger Menu` component (When the dropdown menus are too many)
 - [ ] `Footer` component
+
+### Non-Intractable
+- [X] `Paragraph` component
 - [ ] `Images` component
 
 ## Testing
@@ -125,6 +126,11 @@
 ### End-to-End
 
 ## Design
+
+- [ ] `Button` design
+- [ ] `Button: Primary` design
+- [ ] `Button: Ghost` design
+- [ ] `Button: Rasied` design
 - [ ] `Button` design
 - [ ] `Dropdown List` design
 - [ ] `Link` design
@@ -133,9 +139,9 @@
 - [ ] `Hover boxes` design
 - [ ] `Scroll` design
 - [ ] `Header` design
-- [ ] `Header Image` design
 - [ ] `Footer` design
 - [ ] `Images` design
+- [ ] `Paragraph` design
 
 # Backend
 ## ???
