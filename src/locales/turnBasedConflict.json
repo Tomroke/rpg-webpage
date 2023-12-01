@@ -1,0 +1,181 @@
+{
+  "turnBasedConflict": {
+    "title": "Turn-Based Conflict",
+    "paragraphs": [
+        "G.A.S.A utilizes a turn-based system called Turn-Based Conflict to handle various forms of conflict within the game. This system provides a structured framework for resolving conflicts, whether they involve combat encounters, intense negotiations, or any other type of confrontation."
+    ]
+  },
+  "turnAndActions": {
+    "title": "Turns and Actions",
+    "paragraphs": [
+        "In G.A.S.A, a Turn represents approximately 10 seconds of in-game time, but the Game Master is free to change this should they feel that the Conflict is going to be slower than normal (A courtroom argument, a car race across a large landmass, etc), during which each Adventurer acts effectively simultaneously.",
+        "Within a turn, an Adventurer can perform one of four Actions: use a Technique, make a Know-How Check (To attack, fix a car, set an explosive), perform a Full Move (moving from their Zone and across another to end up in a third. See the Zones of Conflict section for a detailed description.), or take a Misc Action (such as hacking a computer, barricading a door, writing a letter, switching gear, or observing the situation).",
+        "In addition to these four Actions, Adventurers can also perform Minor Actions. Minor Actions allow them to communicate with other Adventurers in the same Zone or across Zones if they have a means of communication, study an opponent's Technique, move within their current Zone or take up new positions in an adjacent Zone.",
+        "Only one Minor Action of each type can be performed per turn.",
+        "Once everyone has declared what they're going to do the turn is role played out and once all the dice have fallen it’s time to resolve the turn. It’s during the resolve that damage is inflicted, healing is done, movement is finished and Conditions are assigned.",
+        "Take note that sometimes a Technique may have a perk that lets them resolve their Technique before everyone else. Moving them before anyone can attack them, inflicting Conditions that will affect a roll, etc.",
+        "It’s up to the Game Master and the players to decide if they wish to use all these rules or only some of them for their non-combat encounters."
+    ]
+  },
+  "zones": {
+    "title": "Zones of Conflict",
+    "paragraphs": [
+        "G.A.S.A utilises a more thematic way to deal with these Turn Based Conflicts, referred to as Conflict Zones or just Zones. The Game Master determines the specific area and the number of zones involved, which can range from a city block to a small saloon.",
+        "While an Adventurer is within a Zone, they have the ability to interact with anything or anyone present within that zone. Certain Perks may provide Techniques with the capability to target objects or individuals in adjacent zones or even across multiple zones.",
+        "To ensure clarity during gameplay, it is recommended to document or depict the different zones, as they may not be physically connected. This means that an Adventurer might need to move across multiple zones in order to reach a specific enemy or object.",
+        "For instance, let's consider a saloon that comprises the ground floor, upper floor, several guest rooms on the upper floor, and a back room. An Adventurer can move from the ground floor to the upper floor or the back room using a single Minor Action. However, to move from the ground floor to one of the guest rooms, which are located beyond the upper floor, would require either one Full Move Action or multiple Minor Actions.",
+        "By detailing the layout of the zones and providing specific movement requirements, players can better visualize and strategize their actions within the Conflict Zones, adding depth and immersion to the gameplay experience."
+    ]
+  },
+  "DifficultZonesAndMovePenalties": {
+    "title": "Difficult Zones & Movement Penalties",
+    "paragraphs": [
+        "Difficult Zones pose unique challenges and obstacles that make movement within or out of them more demanding for Adventurers. These zones can take various forms, such as swamps with murky water rising above the belly button or expansive areas like a city block. When a Game Master designates a Zone as a Difficult Zone, they must provide the specific hindrances in the zones and how they function.",
+        "In most cases, a Minor Action is insufficient to move into or away from a Difficult Zone. Instead, Adventurers must spend a full Action to navigate through it. Additional requirements may also apply, such as passing a Know-How roll to hack a door or successfully jumping between two buildings. Failure to meet these requirements can result in being trapped in the Zone or potentially sustaining damage and even being moved to an entirely different Zone, such as falling when attempting to jump between buildings."
+    ]
+  },
+  "OffenceDefence": {
+    "title": "Offence & Defence",
+    "paragraphs": [
+      "When Adventurers engage in conflicts, such as combat or a race and wish to hurt their opponent, the first step is to determine if the CR is an OC or an SC/LC.",
+      "If the CR is an SC/LC and the Adventurer can beat the LC part then no role is needed and the damage is inflicted, otherwise, the Adventurer has to roll and tries to beat the SC.",
+      "If the CR involves an OC, the targeted player can use a Defensive Technique or a relevant Know-How (Usually Athletics, Acrobatics or Fighting, but any can be used if properly motivated) to block or reduce any damage. The Defence roll is rolled for each attack made against the Adventurer.",
+      "If they lack either means that the Adventurer takes full damage from the attack. AI, the attacker rolls and applies the total amount as Stress or Fatigue damage.",
+      "Should there be a draw, then the defender is considered the victor."
+    ],
+    "subsections": [
+      {
+        "title": "Defending Another",
+        "paragraphs": [
+          "If an Adventurer is in the same zone as a friend, hostage, or anyone else being attacked, they can decide to use their defensive ability to protect them. This means the Adventurer gives up one of their chances to defend against one or more of the incoming attacks aimed at them. There’s no limit to how many attacks an Adventurer can defend another from, except that they can only choose one person to defend each turn.",
+          "For instance, if there's a hostage being attacked by two enemies and the Adventurer is attacked by three enemies, the Adventurer can choose to defend both the hostage and themselves. However, they can only block one out of the three attacks aimed at them in this situation.",
+          "Should it be the other way around, the hostage is being attacked by three enemies and the Adventurer two. They can still block all the attacks against the hostage but will take full damage from their own two attackers."
+        ]
+      },
+      {
+        "title": "Defeated before your turn",
+        "paragraphs": [
+          "In certain situations, an Adventurer or enemy may be defeated before having the chance to take their turn. This can occur due to factors like the Quick Perk on a Technique. When such a situation arises, all characters except Basic Enemies are granted the opportunity to complete their turn before making a decision regarding whether to succumb to defeat or acquire a Wound Perk."
+        ]
+      }
+    ]
+  },
+  "KEY": {
+    "title": "Taking Damage, Fatigue & Stress",
+    "paragraphs": [
+      "An adventurer can take damage in two ways: Stress and Fatigue. Stress represents mental damage caused by facing overwhelming opponents or dealing with challenging situations. Fatigue represents physical damage incurred from exertion or being directly hit."
+    ],
+    "subsections": [
+        {
+            "title": "Damage Amount",
+            "paragraphs": [
+            "When determining the damage an adventurer inflicts, it is based on the amount they roll over the SC or OC. If the CR was LC, the adventurer rolls a die equal to the difference between the LC and the Adventurer's DL. For example, if the LC was 3 (d8) and the Adventurer had a DL of 5 (d12), they would roll a d6 in damage (LC 3 minus DL 5 equals 2, which corresponds to a d6)."
+            ]
+        },
+        {
+            "title": "Damage Type",
+            "paragraphs": [
+            "In order to determine the type of damage dealt to an Adventurer, it is important to consider the specific characteristics of the Offensive Technique or Know-How being used.",
+            "For Offensive Techniques, the type of damage (either Stress or Fatigue) is denoted by the presence of the corresponding Perk associated with that damage type. If an Offensive Technique has both the Stress and Fatigue Perks, the Adventurer can choose which type of damage they will deal.",
+            "For Know-Hows, the damage type they deal with can be determined by referring to the corresponding section in the Know-How chapter. The rules for each individual Know-How will specify whether it inflicts Stress or Fatigue damage.",
+            "Once the damage type has been determined, the amount of damage inflicted on the Adventurer is recorded under the appropriate damage type on their character sheet. This ensures that the Adventurer's total accumulated Stress and Fatigue damage is properly tracked throughout the game."
+            ]
+        }
+    ]
+  },
+  "defeatWoundsRecovery": {
+    "title": "Defeat, Wounds and Recovery.",
+    "paragraphs": [
+      "When an Adventurer sustains enough damage to reach their maximum Stress or Fatigue, they are considered defeated, knocked out or incapacitated. Regardless if it's because of their Stress or Fatigue being maxed out it means they have reached their limit and can no longer continue, whether it's fighting, arguing, or any other activity.",
+      "It's important to note that killing Adventurers is reserved for exceptionally brutal and evil villains, requiring the Personality Perk: Cold Blooded to do so."
+    ],
+    "subsections": [
+      {
+        "title": "Wound Perks",
+        "paragraphs": [
+          "Upon filling out their Stress or Fatigue, an Adventurer can opt to choose a Wound Perk instead of suffering the damage of that attack. Each Wound Perk comes with a distinct effect, such as lowering DL or impeding movement. For a comprehensive understanding of available Wound Perks and their respective rules, consult the Perks Section."
+          ]
+      },
+      {
+        "title": "Recovery",
+        "paragraphs": [
+        "To heal the damage they have taken, Adventurers have Recovery Dice, or RD, that follow the rules for DLs. Each day the character spends resting, whether it's in a hospital bed or simply being lazy on the sofa and avoiding strenuous or challenging activities, they can roll their RD.",
+        "The amount rolled represents the available Recovery Points for that day and can be freely allocated to remove either Stress and/or Fatigue. The Adventurer has the flexibility to choose how to distribute the rolled amount between the two types of damage, depending on their needs.",
+        "Recovery can also be spent to heal a Wound Perk. Once the Wound Perks To Heal amount reaches zero, the corresponding Wound Perk is removed.",
+        "Support Techniques and the Medicine Know-How can also be utilized to reduce Stress, Fatigue and remove Wound Perks. For more details, refer to the Support Techniques section in the Techniques Section and the Medicine Know-How under the Know-How section."
+        ]
+      }
+    ]
+  },
+  "ambushes": {
+    "title": "Ambushes",
+    "paragraphs": [
+      "Should an Adventurer wish to attempt an ambush, they can simply declare their intention to do so. When the Adventurer is the one initiating the ambush, they can be discovered if they lose an OC using their Sneaking Know-How against the Investigation Know-How of the targets.",
+      "On the other hand, if the Adventurer is the one being ambushed, the roles are reversed. The Adventurers use their Investigation Know-How to beat the SC/KS of the ambushers.",
+      "The results will determine the success or failure of the ambush attempt, whether the Adventurer is the one ambushing or being ambushed. If the ambush is successful the ones ambushing are allowed one turn to act before those being ambushed. Should the ambushers fail then the conflict starts as normal."
+    ]
+  },
+  "basicEnemy": {
+    "title": "Basic Enemies",
+    "paragraphs": [
+      "Basic Enemies, often referred to as mooks, goons, or henchmen, serve as expendable foot soldiers within the world of G.A.S.A. Whether they function as the lackeys of a mob boss or as part of a swarm of enraged dinosaurs, they possess seven attributes: Know-Hows, Perks, Techniques, Defense SC/LC, Fatigue, and Stress. Furthermore, they often come with additional details, such as Names, allegiances, their equipment and whether they are mobs or not."
+    ],
+    "subsections": [
+      {
+        "title": "Mobs",
+        "paragraphs": [
+          "Basic enemies often congregate in sizable groups, ranging from bands of smugglers to squads of police officers. Mobs are inclined to have higher Stress and Fatigue levels, but their most distinctive feature is their ability to launch attacks against every adversary within the same Zone as them.",
+          "So how many enemies are required to make a gang of mooks into a mob? A good rule of thumb is that if they outnumber the Adventurers two to one then they should be considered a mob. But the Game Master is free to make a group a Mob even if they're the same size as the number of Adventurers or even smaller.",
+          "Whether the Mob rolls for each enemy it’s attacking or only once for all is left up to the Game Master."
+        ],
+        "sidePanels": {
+          "title": "Mob Splitting",
+            "paragraphs": [
+                "Mobs have the capacity to split in order to cover multiple Zones. When this occurs, their Stress and Fatigue are split and rounded down. Additionally, any accumulated damage is divided between the two new mobs resulting from the split.",
+                "The new Mob must be able to move to another Zone as part of its creation, If it cannot then it cannot split.",
+                "Split mobs who originally were from the same mob remerge at the beginning of the next turn when entering a Zone together. When a Mob remerges their Stress and Fatigue are merged along with any additional damage they have taken."
+            ]
+        }
+      },{
+      "title": "Know-Hows",
+      "paragraphs": [
+        "While there's no explicit cap on the number of Know-Hows a Basic Enemy may possess, it's uncommon for them to possess more than a single Profession Know-How."
+        ]
+      },
+      {
+        "Perks": "",
+      "paragraphs": [
+        "Basic enemies generally possess only one Personality Perk, typically reflecting their generic nature as mooks.,"
+        ]
+      },
+      {
+        "title": "Techniques",
+        "paragraphs": [
+          "Basic enemies often have one Offensive Technique, with the possibility of having up to two additional techniques. However, such cases are rare, as few basic enemies possess the requisite skill or dedication to acquire multiple techniques."
+        ]
+      },
+      {
+        "title": "Defense SC/LC",
+        "paragraphs": [
+          "As explained in the Challenge Ratings section, both SC and LC determine the threshold an Adventurer must surpass or if a roll is necessary at all."
+        ]
+      },
+      {
+        "title": "Stress & Fatigue",
+        "paragraphs": [
+          "Comparable to regular Adventurers, basic enemies are subject to Fatigue and Stress, which influence their endurance in combat. However, their Stress and Fatigue levels are typically limited to no more than 20 each. Mobs will usually have double the health in each."
+        ]
+      }
+    ]
+  },
+  "typicalTurn": {
+    "title": "Typical Turn",
+    "paragraphs": [
+      "A typical turn in G.A.S.A begins with the Game Master declaring that a Conflict has started and specifying the participants involved as well as laying out which Zones exist and what hazards, if any, exist within them and their rules.",
+      "The Game Master then states the actions of each NPC, afterwards proceeding counterclockwise until each Player has had a chance to declare their Adventurer's actions.",
+      "Before the Dice Starts rolling and Game Master starts describing everyone's actions, the Players are free to discuss their intended actions for the turn and ask the Game Master questions for clarification.",
+      "Once everyone is happy the dice can be rolled. Who goes first is irrelevant as both the players and the NPC's actions occur at the same time. So pick whatever turn order works for your group.",
+      "Once the dice have been rolled, damaged and Conditions applied and resolved, the turn ends and a new one begins."
+    ]
+  }
+}
