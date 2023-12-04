@@ -3,6 +3,6 @@ export interface HeaderProps {
     subtitle?: string;
     img?: string;
     styles?: React.CSSProperties;
-    elements: JSX.Element[];
+    elements: React.ReactElement[];
     children?: React.ReactNode;
 }
