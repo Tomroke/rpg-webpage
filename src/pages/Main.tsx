@@ -2,8 +2,9 @@ import React from "react";
 import { Header } from "../components/header";
 import Dropdown from "../components/dropDownMenu/DropDownMenu";
 import nav from "../locales/nav.json";
-
-const headerImg = "/src/assets/test.png";
+import { Image } from "../components/images";
+import imgTest from "../assets/download.png";
+import headerImg from "../assets/header.png";
 
 const headerStyle: React.CSSProperties = { backgroundColor: "#ec82ef", color: "white", padding: "10px" };
 
@@ -19,6 +20,7 @@ function Main () {
                 styles={headerStyle}
                 elements={[<Dropdown key={"rulesButtons"} initMenuText={"Rules"} textsNavDisplay={ rulesMap } />]}>
             </Header>
+            <Image path={imgTest} alt={"Testing"}/>
         </div>
     );
 }
