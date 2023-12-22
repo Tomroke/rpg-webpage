@@ -9,7 +9,7 @@
   "ChallengeRatings": {
     "title": "Challenge Ratings",
     "paragraphs": [
-      "The Challenge Rating, or CR, serves as a measure of the difficulty or toughness of a particular task or objective, whether it's striking a foe, climbing a mountain, or even making a super tasty and energy-rich breakfast. When an Adventurer attempts to overcome a CR, it is referred to as making a Check. There are three types of Checks: Static, Levelled, and Opposition. These are abbreviated as follows: Static Check is SC, Levelled Check is LC and OC is OC",
+      "The Challenge Rating, or CR, serves as a measure of the difficulty or toughness of a particular task or objective, whether it's striking a foe, climbing a mountain, or even making a super tasty and energy-rich breakfast. When an Adventurer attempts to overcome a CR, it is referred to as making a Check. There are three types of Checks: Static, Levelled, and Opposition. These are abbreviated as follows: Static Check is SC, Levelled Check is LC and Opposition Checks is OC.",
       "CRs are written as follows, X/Y. X is the SC, while the Y is the LC. As OC are between two or more Adventurers it will simply state that it’s a OC roll."
     ]
   },
