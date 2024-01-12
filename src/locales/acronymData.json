@@ -1,0 +1,26 @@
+{
+  "DL": {
+    "title": "Dice Level",
+    "paragraph": "DL stands for Dice Level. Which can range from Level 1 which is a D4 to Level 6 which is a D20."
+  },
+  "CR": {
+    "title": "Challenge Rating",
+    "paragraph": ""
+  },
+  "SC": {
+    "title": "Static Check",
+    "paragraph": ""
+  },
+  "LC": {
+    "title": "Levelled Checks",
+    "paragraph": ""
+  },
+  "OC": {
+    "title": "Opposition Checks",
+    "paragraph": ""
+  },
+  "acronym": {
+    "title": "Dice Level",
+    "paragraph": ""
+  }
+}

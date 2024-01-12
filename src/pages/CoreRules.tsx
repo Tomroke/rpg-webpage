@@ -15,14 +15,18 @@ function CoreRules () {
 
     const populateParagraphs = () => {
         const iterableKeys = coreRules.keys();
-        const keys = Array.from(iterableKeys);
+        const mapKeys = Array.from(iterableKeys);
 
+        let key: string | undefined;
+        let id: string | undefined;
         let title: string | undefined;
         let paragraphs: string[] | undefined;
 
-        return keys.map((key) => {
-            const JSONParagraph = coreRules.get(key);
+        return mapKeys.map((mapKey) => {
+            const JSONParagraph = coreRules.get(mapKey);
 
+            key = JSONParagraph?.key;
+            id = JSONParagraph?.id;
             title = JSONParagraph?.title;
             paragraphs = JSONParagraph?.paragraphs;
 
@@ -33,7 +37,7 @@ function CoreRules () {
 
             return <div key={key}>
                 <h1>{title}</h1>
-                <TextParagraph textArray={paragraphs} />
+                <TextParagraph keyId={`${key}_${id}`} textArray={paragraphs} />
             </div>;
         });
     };

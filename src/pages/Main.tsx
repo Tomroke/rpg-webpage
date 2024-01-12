@@ -5,7 +5,6 @@ import nav from "../locales/nav.json";
 import { Image } from "../components/images";
 import imgTest from "../assets/download.png";
 import headerImg from "../assets/header.png";
-import HoverBox from "../components/hoverBox/hoverBox";
 
 const headerStyle: React.CSSProperties = { backgroundColor: "#ec82ef", color: "white", padding: "10px" };
 
@@ -22,7 +21,6 @@ function Main () {
                 elements={[<Dropdown key={"rulesButtons"} initMenuText={"Rules"} textsNavDisplay={ rulesMap } />]}>
             </Header>
             <Image path={imgTest} alt={"Testing"}/>
-            <HoverBox />
         </div>
     );
 }

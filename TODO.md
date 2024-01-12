@@ -59,10 +59,13 @@
 - [ ] `Link` component
 - [ ] `Input Field` component
 - [ ] `Search` component
+- [X] `Hover boxes` component
+- [ ] `Apply Hover box to paragraph text` component
 - [ ] `Hover boxes` component
+- [ ] `Anchor hover box to cursor` component
 - [ ] `Scroll` component
 - [X] `Header` component
-- [X] `Header Image` component (considered done for now, as it might need a proper backend to work as I want it.)
+- [X] `Header Image` component
 - [X] `Header Buttons` component
 - [X] `Header Navbar` component
 - [ ] `Header Hamburger Menu` component (When the dropdown menus are too many)
@@ -70,7 +73,7 @@
 
 ### Non-Intractable
 - [X] `Paragraph` component
-- [ ] `Images` component
+- [X] `Images` component
 
 ## Testing
 ### Unit Testing

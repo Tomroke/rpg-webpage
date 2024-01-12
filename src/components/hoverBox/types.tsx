@@ -1,5 +1,8 @@
+import React from "react";
+
 export interface hoverBoxProps {
-    title: string;
-    para: string;
+    keyId?: string;
+    acronym: string;
     hoverText: string;
+    style?: React.CSSProperties;
 }

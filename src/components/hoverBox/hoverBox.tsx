@@ -1,24 +1,39 @@
 import React, { useState } from "react";
 import { hoverBoxProps } from "./types";
+import acronyms from "../../locales/acronymData.json";
 
-const HOVER_ELEMENT_ID = "hoverable";
-
-export default function HoverBox ({ title, para, hoverText }: hoverBoxProps) {
-    const [hoveredElementId, setHoveredElementId] = useState<string | null>(null);
-
-    const handleMouseOver = (event: React.MouseEvent<HTMLDivElement>) => {
-        const targetId = event.currentTarget.id;
-        setHoveredElementId(targetId === HOVER_ELEMENT_ID ? targetId : null);
+export default function HoverBox ({ keyId, acronym, hoverText }: hoverBoxProps) {
+    const [isHovering, setIsHovering] = useState(false);
+    const acronymsObject = new Map(Object.entries(acronyms));
+    const handleMouseOver = () => {
+        setIsHovering(true);
     };
 
-    const hoverBoxContent: React.ReactElement = <section><h1>{title}</h1><p>{para}</p></section>;
+    const handleMouseOut = () => {
+        setIsHovering(false);
+    };
+
+    const acronymData = acronymsObject.get(acronym);
+
+    const hoverBoxContent: React.ReactElement = <section key={`section_${keyId}`}>
+        <h1 key={`hoverBox_${keyId}_title`}>{acronymData?.title}</h1>
+        <p key={`hoverBox_${keyId}_para`}>{acronymData?.paragraph}</p>
+    </section>;
 
     return (
-        <div style={style.parentStyle}>
-            <div id={HOVER_ELEMENT_ID} onMouseOver={handleMouseOver} onMouseOut={() => setHoveredElementId(null)}>
+        <div
+            style={style.parentStyle}
+            onMouseOver={handleMouseOver}
+            onMouseOut={handleMouseOut}
+        >
+            <p key={`acronym_${keyId}_para`}>
                 {hoverText}
-            </div>
-            {hoveredElementId !== null ? <div style={style.hoverBoxStyle} >{hoverBoxContent}</div> : null}
+            </p>
+            {isHovering
+                ? <div key={`hoverBoxDiv_${keyId}`} style={style.hoverBoxStyle} >
+                    {hoverBoxContent}
+                </div>
+                : null}
         </div>
     );
 }

@@ -1,5 +1,7 @@
 {
   "diceLevelsPool": {
+    "key":  "DLP",
+    "id":  "0",
     "title": "Dice Levels and Dice Pool",
     "paragraphs": [
       "The dice system in G.A.S.A uses range of dice, each assigned to a specific level that represents an Adventurer's power, skill, and experience. Dice Levels range from level 1 to level 6, with each level corresponding to a different type of dice. Specifically, level 1 corresponds to a d4, level 2 to a d6, level 3 to a d8, level 4 to a d10, level 5 to a d12, and level 6 to a d20. The higher the Dice Level, the more potent and capable the Adventurer is. Dice Level will be abbreviated as DL in the coming chapters.",
@@ -7,31 +9,41 @@
     ]
   },
   "ChallengeRatings": {
+    "key":  "CR",
+    "id":  "1",
     "title": "Challenge Ratings",
     "paragraphs": [
       "The Challenge Rating, or CR, serves as a measure of the difficulty or toughness of a particular task or objective, whether it's striking a foe, climbing a mountain, or even making a super tasty and energy-rich breakfast. When an Adventurer attempts to overcome a CR, it is referred to as making a Check. There are three types of Checks: Static, Levelled, and Opposition. These are abbreviated as follows: Static Check is SC, Levelled Check is LC and Opposition Checks is OC.",
       "CRs are written as follows, X/Y. X is the SC, while the Y is the LC. As OC are between two or more Adventurers it will simply state that it’s a OC roll."
     ]
   },
-  "Static": {
+  "StaticCheck": {
+    "key":  "SC",
+    "id":  "2",
     "title": "Static Checks",
     "paragraphs": [
       "An SC involves a specific number that the Adventurer must exceed when rolling their dice pool in order to achieve success. The SC provides a fixed target for the Adventurer to strive for, and success is determined by whether the dice roll meets or surpasses the required number."
     ]
   },
-    "Levelled": {
-        "title": "Levelled Checks",
-        "paragraphs": [
+    "LevelledCheck": {
+      "key":  "LC",
+      "id":  "3",
+      "title": "Levelled Checks",
+      "paragraphs": [
         "An LC takes into account the Adventurer's DL. If their DL is equal to or higher than the specified LC, the Adventurer succeeds in doing the task. Levelled checks are often used in combination with Static checks to streamline gameplay. Therefore, if a CR involves both an LC and an SC, the Adventurer only needs to surpass or meet the LC to succeed and can ignore rolling for the SC."
-        ]
+      ]
     },
-    "Opposition": {
-        "title": "Opposition Checks",
-        "paragraphs": [
+    "OppositionCheck": {
+      "key":  "OC",
+      "id":  "4",
+      "title": "Opposition Checks",
+      "paragraphs": [
         "OC happens most often when two Adventurers go toe to toe with one another, often when one uses an Offensive Technique against another Adventurer and the other uses a Defensive Technique to defend themselves. Both Adventurers roll their dice pools and the one with the highest total rolled is the winner."
-        ]
+      ]
     },
   "edgeAndSetback": {
+    "key":  "EAS",
+    "id":  "5",
     "title": "Edge and Setback",
     "paragraphs": [
       "Edge and Setback are mechanics that grant the Adventurer the ability to roll their Dice Pool twice and choose either the better result (called having an Edge) or the worse result (suffering a Setback). When an Adventurer has an Edge, they can pick the higher roll, while suffering a Setback means they must keep the lower result of the two rolls.",
