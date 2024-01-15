@@ -60,8 +60,7 @@
 - [ ] `Input Field` component
 - [ ] `Search` component
 - [X] `Hover boxes` component
-- [ ] `Apply Hover box to paragraph text` component
-- [ ] `Hover boxes` component
+- [X] `Apply Hover box to paragraph text` component
 - [ ] `Anchor hover box to cursor` component
 - [ ] `Scroll` component
 - [X] `Header` component
