@@ -1,0 +1,8 @@
+{
+  "coreRules": [
+    "DL",
+    "SC",
+    "LC",
+    "OC"
+  ]
+}
